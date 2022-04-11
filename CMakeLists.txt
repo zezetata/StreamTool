@@ -3,4 +3,4 @@ project(StreamTool)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(StreamTool main.cpp h264_sei_wrapper.cpp h264_sei_wrapper.h h265_sei_wrapper.cpp h265_sei_wrapper.h)
+add_executable(StreamTool main.cpp h264_sei_wrapper.cpp h264_sei_wrapper.h h265_sei_wrapper.cpp h265_sei_wrapper.h x264_sei_write.cpp x264_sei_write.h)
